@@ -9,8 +9,16 @@
                 <a class="nav-link" href="/order" style="color:#DF86A1">ORDER</a>
             </ul>
             <ul class="nav">
-                <a class="nav-link" href="#" style="color:#DF86A1"> Sign Up</a>
-                <a class="nav-link" href="#" style="color:#DF86A1"> Login</a>
+                @auth  <li class="nav-item">
+                    <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+                        <button type="submit" class="nav-link btn btn-link" style="color:#DF86A1">Log Out</button>
+                    </form>
+                </li>
+                @else
+                    <a class="nav-link" href="/login" style="color:#DF86A1">Login</a>
+                    <a class="nav-link" href="/register" style="color:#DF86A1">Sign Up</a>
+                @endauth
             </ul>
         </div>
     </nav>

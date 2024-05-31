@@ -19,7 +19,7 @@
             pointer-events: none;
             background-color:#DF6589;
             border-color:#DF6589;
-            color:#070952
+            color:#70951
         }
 
         .inc-btn{
