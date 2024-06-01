@@ -2,33 +2,50 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Http\Request;
+use App\Models\CartItem;
+use App\Models\Menu;
 
 class ShoppingCartController extends Controller
 {
     // Menampilkan halaman keranjang
     public function index()
     {
-        $cartItems = session()->get('cart', []);
+        $cartItems = CartItem::with('menu')->get();
         return view('keranjang', compact('cartItems'));
     }
 
     // Mengupdate keranjang
-    public function updateCart(Request $request)
+    public function addToCart(Request $request)
     {
-        $cart = session()->get('cart', []);
+        $request->validate([
+            'quantity' => 'required|integer|min:1',
+        ]);
+        // Dapatkan harga produk berdasarkan ID produk
+        $productId = $request->productId;
+        $product = Menu::find($productId);
+        $productPrice = $product->price;
 
-        $productId = $request->input('productId');
-        $quantity = $request->input('quantity');
+        // Hitung total harga
+        $quantity = $request->quantity;
+        $totalPrice = $productPrice * $quantity;
 
-        if ($quantity > 0) {
-            $cart[$productId] = $quantity;
-        } else {
-            unset($cart[$productId]);
-        }
+        // Simpan ke dalam database
+        DB::table('cart_items')->insert([
+            'product_name' => $request->productName,
+            'quantity' => $quantity,
+            'total_price' => $totalPrice,
+            'product_id' => $productId,
+        ]);
 
-        session()->put('cart', $cart);
+        return Redirect::route('order');
+    }
 
-        return response()->json(['success' => true]);
+    public function removeFromCart($id)
+    {
+        CartItem::find($id)->delete();
+        return redirect()->route('shopping.cart');
     }
 }

@@ -23,20 +23,17 @@
                                 </tr>
                             </thead>
                             <tbody>
-                            @foreach($cartItems as $productId => $quantity)
+                            @foreach($cartItems as $item)
                                 @php
-                                    $product = \App\Models\Menu::find($productId);
-                                    $productName = $product->name; 
-                                    $productPrice = $product->price; 
-                                    $totalPrice = $productPrice * $quantity;
+                                    $product = $item->menu;
                                 @endphp
                                 <tr>
-                                    <td>{{ $productName }}</td>
-                                    <td>{{ $quantity }}</td>
-                                    <td>{{ $productPrice }}</td>
-                                    <td>{{ $totalPrice }}</td>
+                                    <td>{{ $product->name }}</td>
+                                    <td>{{ $item->quantity }}</td>
+                                    <td>{{ $product->price }}</td>
+                                    <td>{{ $item->total_price }}</td>
                                     <td>
-                                        <button class="btn btn-danger btn-sm remove-item" data-product-id="{{ $productId }}">Remove</button>
+                                        <button class="btn btn-danger btn-sm remove-item" data-product-id="{{ $item->id }}">Remove</button>
                                     </td>
                                 </tr>
                             @endforeach
@@ -53,35 +50,13 @@
     </div>
 </div>
 
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Skrip pertama untuk menghapus item dari keranjang
-        document.querySelectorAll('.remove-item').forEach(button => {
-            button.addEventListener('click', function () {
-                const productId = this.getAttribute('data-product-id');
-                updateCart(productId, 0);
-            });
+<script>
+    document.querySelectorAll('.remove-item').forEach(button => {
+        button.addEventListener('click', function () {
+            if (confirm('Are you sure you want to remove this item?')) {
+                window.location.href = '/remove-from-cart/' + this.dataset.productId;
+            }
         });
-
-        // Skrip kedua untuk memperbarui keranjang
-        function updateCart(productId, quantity) {
-            fetch('{{ route('update.cart') }}', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                },
-                body: JSON.stringify({
-                    productId: productId,
-                    quantity: quantity
-                })
-            }).then(response => response.json())
-              .then(data => {
-                  if (data.success) {
-                      location.reload();
-                  }
-              });
-        }
     });
 </script>
 @endsection

@@ -5,13 +5,15 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Order;
 use Barryvdh\DomPDF\Facade\pdf; // Menggunakan direktif use sesuai permintaan Anda
+use App\Models\CartItem;
+use App\Models\Menu;
 
 class InvoiceController extends Controller
 {
     public function generatePDF()
     {
         
-        $cartItems = session()->get('cartItems', []);
+        $cartItems = CartItem::with('menu')->get();
 
         // Buat HTML invoice
         $html = view('invoice', compact('cartItems'))->render();

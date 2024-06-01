@@ -54,9 +54,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -91,9 +99,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>                            
                             </div>
                         </div>
                     </div>
@@ -129,9 +145,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">45k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>                            
                             </div>
                         </div>
                     </div>
@@ -165,9 +189,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">45k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -210,9 +242,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">50k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -247,9 +287,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">50k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -284,9 +332,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">65k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -321,9 +377,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">65k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -364,9 +428,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">18k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -400,9 +472,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">20k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -436,9 +516,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">28k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -472,9 +560,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">25k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -514,9 +610,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">20k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -550,9 +654,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">25k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -586,10 +698,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">30k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
-                            </div>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>                            </div>
                         </div>
                     </div>
                 </div>
@@ -621,10 +740,17 @@
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
                             <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
-                                <button class="btn btn-primary inc-btn">-</button>
-                                <span class="mx-2 quantity" style="padding-top: 10px">0</span>
-                                <button class="btn btn-primary inc-btn" data-product-id="{{ $item->id }}" data-product-name="{{ $item->name }}" data-product-price="{{ $item->price }}">+</button>
-                            </div>
+                                <div class="cart-form" style="margin-right: 30px">
+                                    <form action="{{ route('add.to.cart') }}" method="post" class="box secondary" id="form">
+                                        @csrf
+                                        <input type="hidden" name="productId" value="{{ $item->id }}">
+                                        <input type="hidden" name="productName" value="{{ $item->name }}">
+                                        <input type="hidden" name="productPrice" value="{{ $item->price }}">
+                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
+                                        <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
+                                    </form>
+                                </div>                            </div>
                         </div>
                     </div>
                 </div>
@@ -646,61 +772,26 @@
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Bagian untuk menangani tombol tambah dan kurangi
-        const quantityElements = document.querySelectorAll('.quantity');
-        quantityElements.forEach(quantityElement => {
-            const increaseButton = quantityElement.nextElementSibling;
-            const decreaseButton = increaseButton.previousElementSibling; // Tambahkan baris ini untuk memilih tombol pengurangan
+    function addToCart(productId) {
+        const quantity = document.querySelector('.cart-input').value;
 
-            increaseButton.addEventListener('click', function () {
-                let currentQuantity = parseInt(quantityElement.textContent) + 1;
-                quantityElement.textContent = currentQuantity;
-                
-                const productId = this.getAttribute('data-product-id');
-                const productName = this.getAttribute('data-product-name');
-                const productPrice = this.getAttribute('data-product-price');
-                updateCart(productId, productName, productPrice, currentQuantity);
-            });
-
-            // decreaseButton.addEventListener('click', function () {
-            //     let currentQuantity = parseInt(quantityElement.textContent) - 1;
-            //     if (currentQuantity >= 0) {
-            //         quantityElement.textContent = currentQuantity;
-                    
-            //         const productId = this.getAttribute('data-product-id');
-            //         const productName = this.getAttribute('data-product-name');
-            //         const productPrice = this.getAttribute('data-product-price');
-            //         updateCart(productId, productName, productPrice, currentQuantity);
-            //     } else {
-            //         // Jika currentQuantity < 0, atur nilainya menjadi 0
-            //         currentQuantity = 0;
-            //         quantityElement.textContent = currentQuantity;
-            //     }
-            // });
-        });
-
-        function updateCart(productId, productName, productPrice, quantity) {
-            fetch('{{ route('update.cart') }}', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                },
-                body: JSON.stringify({
-                    productId: productId,
-                    productName: productName,
-                    productPrice: productPrice,
-                    quantity: quantity
-                })
-            }).then(response => response.json())
-              .then(data => {
-                  if (data.success) {
-                      console.log('Item added to cart');
-                  }
-              });
-        }
-    });
+        fetch('{{ route('add.to.cart') }}', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-TOKEN': '{{ csrf_token() }}'
+            },
+            body: JSON.stringify({
+                productId: productId,
+                quantity: quantity
+            })
+        }).then(response => response.json())
+          .then(data => {
+              if (data.success) {
+                  alert('Item berhasil ditambahkan ke keranjang!');
+              }
+          });
+    }
 </script>
 
 @endsection

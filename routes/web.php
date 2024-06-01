@@ -17,11 +17,16 @@ Route::get('/contact', [PageController::class,'contact']);
 Route::get('/order', [PageController::class,'order']);
 
 Route::get('/keranjang', [ShoppingCartController::class, 'index'])->name('shopping.cart');
-Route::post('/update-cart', [ShoppingCartController::class, 'updateCart'])->name('update.cart');
+Route::post('/add-to-cart', [ShoppingCartController::class, 'addToCart'])->name('add.to.cart');
+Route::get('/remove-from-cart/{id}', [ShoppingCartController::class, 'removeFromCart'])->name('remove.from.cart');
+
 
 Route::get('/invoice/pdf', [InvoiceController::class, 'generatePDF'])->name('invoice.pdf');
 
 Route::get('/order', [MenuItemController::class, 'index'])->name('order');
+
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
