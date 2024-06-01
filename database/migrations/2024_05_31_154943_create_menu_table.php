@@ -16,7 +16,6 @@ return new class extends Migration
             $table->string('name', 100); // VARCHAR(100)
             $table->text('description')->nullable(); // TEXT, nullable
             $table->decimal('price', 10, 2); // DECIMAL(10, 2)
-            $table->boolean('available')->default(true); // BOOLEAN, default TRUE
             $table->timestamps(); // created_at and updated_at
         });
     }
