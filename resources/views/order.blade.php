@@ -1,29 +1,26 @@
 @extends('layouts.app')
 
 @section('content')
-<nav class="z-2 navbar fixed-top" style="padding-top:75px">
+<nav class="z-2 navbar fixed-top" style="padding-top:75px; background-color:#020873">
     <div class="container d-flex justify-content-center">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link" href="#buffet" style="color:#070952">Buffet</a>
+                <a class="nav-link" href="#buffet" style="color:#DF6589">Buffet</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#prasmanan" style="color:#070952">Prasmanan</a>
+                <a class="nav-link" href="#prasmanan" style="color:#DF6589">Prasmanan</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#nasi-kotak" style="color:#070952">Nasi Kotak</a>
+                <a class="nav-link" href="#nasi-kotak" style="color:#DF6589">Nasi Kotak</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#tumpeng" style="color:#070952">Tumpeng</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#others" style="color:#070952">Others</a>
+                <a class="nav-link" href="#tumpeng" style="color:#DF6589">Tumpeng</a>
             </li>
         </ul>
     </div>
 </nav>
 
-<section id="buffet" class="content-section" style="padding-top: 110px; background-color:#DF86A1">
+<section id="buffet" class="content-section" style="padding-top: 125px; background-color:#DF86A1">
     <div class="container-fluid">
         <h2 class="text-center">Buffet</h2>
         <div class="row justify-content-center">
@@ -77,16 +74,15 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Nasi Liwet</li>
+                                <li>Sayur Manisa</li>
+                                <li>Opor Ayam</li>
+                                <li>Terik Tahu</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
+                                <li>Telor Areh</li>
                                 <li>Sambel</li>
                                 <li>Kerupuk</li>
                                 <li>Air Mineral</li>
@@ -115,23 +111,23 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Nasi Putih</li>
+                                <li>Sayur Asem</li>
+                                <li>Empal Gepuk/Ayam</li>
+                                <li>Kremes</li>
+                                <li>Dadar Jagung</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
+                                <li>Ikan Asin</li>
                                 <li>Sambel</li>
                                 <li>Kerupuk</li>
                                 <li>Air Mineral</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
-                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
+                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">45k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
                                 <button class="btn btn-primary inc-btn">-</button>
                                 <span class="mx-2 quantity" style="padding-top: 10px">0</span>
@@ -153,23 +149,21 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Rawon/Soto</li>
+                                <li>Telor</li>
+                                <li>Tempe Mendoan</li>
+                                <li>Masi Putih/Lontong</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
                                 <li>Sambel</li>
                                 <li>Kerupuk</li>
                                 <li>Air Mineral</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
-                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
+                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">45k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
                                 <button class="btn btn-primary inc-btn">-</button>
                                 <span class="mx-2 quantity" style="padding-top: 10px">0</span>
@@ -183,7 +177,7 @@
     </div>
 </section>
 
-<section id="prasmanan" class="content-section" style="padding-top: 110px; background-color:#DF86A1">
+<section id="prasmanan" class="content-section" style="padding-top: 125px; background-color:#DF86A1">
     <div class="container-fluid">
         <h2 class="text-center">Prasmanan</h2>
         <div class="row justify-content-center">
@@ -199,23 +193,22 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Sub Ayam</li>
+                                <li>Capcay</li>
+                                <li>Ayam Saus Inggris</li>
+                                <li>Nasi Goreng Hongkong</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
-                                <li>Sambel</li>
-                                <li>Kerupuk</li>
+                                <li>Nugget</li>
+                                <li>Nasi Putih</li>
+                                <li>Es Pelangi</li>
                                 <li>Air Mineral</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
-                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
+                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">50k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
                                 <button class="btn btn-primary inc-btn">-</button>
                                 <span class="mx-2 quantity" style="padding-top: 10px">0</span>
@@ -237,23 +230,22 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Sup Merah</li>
+                                <li>Ayam Goreng</li>
+                                <li>Tumis Jamur Kuping</li>
+                                <li>Telor</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
-                                <li>Sambel</li>
-                                <li>Kerupuk</li>
+                                <li>Nasi Goreng</li>
+                                <li>Bakmie Goreng</li>
+                                <li>Acar</li>
                                 <li>Air Mineral</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
-                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
+                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">50k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
                                 <button class="btn btn-primary inc-btn">-</button>
                                 <span class="mx-2 quantity" style="padding-top: 10px">0</span>
@@ -275,23 +267,22 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Nasi Putih</li>
+                                <li>Nasi Goreng</li>
+                                <li>Soup Kimlo</li>
+                                <li>Daging Sapi Teriyaki</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
-                                <li>Sambel</li>
-                                <li>Kerupuk</li>
+                                <li>Bihun Goreng</li>
+                                <li>Tumis Jagung</li>
+                                <li>Puding</li>
                                 <li>Air Mineral</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
-                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
+                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">65k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
                                 <button class="btn btn-primary inc-btn">-</button>
                                 <span class="mx-2 quantity" style="padding-top: 10px">0</span>
@@ -313,23 +304,22 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Nasi Putih</li>
+                                <li>Sup Sehat</li>
+                                <li>Ayam Tahu Jepang</li>
+                                <li>Udang Krispi</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
-                                <li>Sambel</li>
-                                <li>Kerupuk</li>
+                                <li>Babykol Ayam Jamur</li>
+                                <li>Bakmie Goreng</li>
+                                <li>Es Dawet</li>
                                 <li>Air Mineral</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
-                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
+                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">65k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
                                 <button class="btn btn-primary inc-btn">-</button>
                                 <span class="mx-2 quantity" style="padding-top: 10px">0</span>
@@ -343,7 +333,7 @@
     </div>
 </section>
 
-<section id="nasi-kotak" class="content-section" style="padding-top: 110px; background-color:#DF86A1">
+<section id="nasi-kotak" class="content-section" style="padding-top: 125px; background-color:#DF86A1">
     <div class="container-fluid">
         <h2 class="text-center">Nasi Kotak</h2>
         <div class="row justify-content-center">
@@ -359,23 +349,20 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Nasi Putih</li>
+                                <li>Sambel Goreng</li>
+                                <li>Kentang</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
-                                <li>Sambel</li>
-                                <li>Kerupuk</li>
-                                <li>Air Mineral</li>
+                                <li>Mie</li>
+                                <li>Acar</li>
+                                <li>Ayam Bakar</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
-                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
+                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">18k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
                                 <button class="btn btn-primary inc-btn">-</button>
                                 <span class="mx-2 quantity" style="padding-top: 10px">0</span>
@@ -397,23 +384,21 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Nasi Kuning</li>
+                                <li>Kering Tempe</li>
+                                <li>Sambel Goreng Kentang</li>
+                                <li>Telor</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
-                                <li>Sambel</li>
-                                <li>Kerupuk</li>
-                                <li>Air Mineral</li>
+                                <li>Mie</li>
+                                <li>Acar</li>
+                                <li>Ayam Goreng</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
-                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
+                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">20k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
                                 <button class="btn btn-primary inc-btn">-</button>
                                 <span class="mx-2 quantity" style="padding-top: 10px">0</span>
@@ -435,23 +420,21 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Nasi Putih</li>
+                                <li>Krengsengan</li>
+                                <li>Bali Telor</li>
+                                <li>Tumis Buncis</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
+                                <li>Gorengan</li>
                                 <li>Sambel</li>
                                 <li>Kerupuk</li>
-                                <li>Air Mineral</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
-                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
+                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">28k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
                                 <button class="btn btn-primary inc-btn">-</button>
                                 <span class="mx-2 quantity" style="padding-top: 10px">0</span>
@@ -473,23 +456,21 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Nasi Putih</li>
+                                <li>Sayur Asem</li>
+                                <li>Ayam Goreng</li>
+                                <li>Tongkol Balado</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
+                                <li>Tempe Mendoan</li>
                                 <li>Sambel</li>
                                 <li>Kerupuk</li>
-                                <li>Air Mineral</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
-                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
+                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">25k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
                                 <button class="btn btn-primary inc-btn">-</button>
                                 <span class="mx-2 quantity" style="padding-top: 10px">0</span>
@@ -503,7 +484,7 @@
     </div>
 </section>
 
-<section id="tumpeng" class="content-section" style="padding-top: 110px; background-color:#DF86A1">
+<section id="tumpeng" class="content-section" style="padding-top: 125px; background-color:#DF86A1">
     <div class="container-fluid">
         <h2 class="text-center">Tumpeng</h2>
         <div class="row justify-content-center">
@@ -519,23 +500,19 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Nasi Putih</li>
+                                <li>Sambel Goreng Kentang</li>
+                                <li>Mie</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
-                                <li>Sambel</li>
-                                <li>Kerupuk</li>
-                                <li>Air Mineral</li>
+                                <li>Acar</li>
+                                <li>Ayam Bakar</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
-                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
+                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">20k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
                                 <button class="btn btn-primary inc-btn">-</button>
                                 <span class="mx-2 quantity" style="padding-top: 10px">0</span>
@@ -557,23 +534,21 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Nasi Kuning</li>
+                                <li>Kering Tempe</li>
+                                <li>Sambel Goreng Kentang</li>
+                                <li>Telor</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
-                                <li>Sambel</li>
-                                <li>Kerupuk</li>
-                                <li>Air Mineral</li>
+                                <li>Mie</li>
+                                <li>Acar</li>
+                                <li>Ayam Goreng</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
-                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
+                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">25k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
                                 <button class="btn btn-primary inc-btn">-</button>
                                 <span class="mx-2 quantity" style="padding-top: 10px">0</span>
@@ -595,23 +570,21 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
+                                <li>Nasi Putih</li>
+                                <li>Urap Sayur</li>
+                                <li>Tempe Bacem</li>
                                 <li>Telor Pindang</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
-                                <li>Sambel</li>
-                                <li>Kerupuk</li>
-                                <li>Air Mineral</li>
+                                <li>Ayam Bumbu</li>
+                                <li>Sayur Lodeh</li>
+                                <li>Terik Tahu</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">
-                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">35k/Pak</button></div>
+                            <div><button type="button" class="btn btn-primary custom-btn rounded-pill">30k/Pak</button></div>
                             <div class="d-flex align-items-center" style="padding:25px">
                                 <button class="btn btn-primary inc-btn">-</button>
                                 <span class="mx-2 quantity" style="padding-top: 10px">0</span>
@@ -633,19 +606,16 @@
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Nasi</li>
-                                <li>Sayur Gudeg</li>
-                                <li>Ayam Bacem</li>
-                                <li>Sambel Krecek</li>
-                                <li>Telor Pindang</li>
+                                <li>Nasi Putih/Kuning</li>
+                                <li>Ayam Goreng/Crispy</li>
+                                <li>Sambel Goreng Kentang</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
-                                <li>Tempe Bacem</li>
-                                <li>Sambel</li>
-                                <li>Kerupuk</li>
-                                <li>Air Mineral</li>
+                                <li>Sate Kambing</li>
+                                <li>Kering Tempe</li>
+                                <li>Mie</li>
                             </ul>
                         </div>
                         <div class="col-md-3 d-flex flex-column align-items-end" style="padding-top:25px">

@@ -1,9 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container-fluid" style="background-color: #DF86A1; min-height: 100vh; padding: 50px 0;">
-    <div class="container">
+<div class="container-fluid" style="background-color: #DF86A1; min-height: 100vh; padding: 40px">
+    <div class="container" style="padding: 50px">
         <h2 class="text-center mb-4" style="color: #fff;">Shopping Cart</h2>
+        <div class="col-md-11 text-end" style="padding: 25px;">
+            <a href="/order" class="btn btn-primary rounded-pill">Kembali ke Order</a>
+            <a href="{{ route('invoice.pdf') }}" class="btn btn-primary rounded-pill">Cetak Invoice</a>
+        </div>
         <div class="row justify-content-center">
             <div class="col-md-10">
                 @if(count($cartItems) > 0)
@@ -48,15 +52,6 @@
         </div>
     </div>
 </div>
-
-<div class="row">
-        <div class="col-md-12 text-end">
-            <a href="/order" class="btn btn-primary rounded-pill">Kembali ke Order</a>
-            <a href="{{ route('invoice.pdf') }}" class="btn btn-primary rounded-pill">Cetak Invoice</a>
-
-
-        </div>
-    </div>
 
     <script>
     document.addEventListener('DOMContentLoaded', function () {

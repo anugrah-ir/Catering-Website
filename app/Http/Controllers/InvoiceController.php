@@ -11,12 +11,15 @@ class InvoiceController extends Controller
     public function generatePDF()
     {
         
-        $data = [];
+        $cartItems = session()->get('cartItems', []);
 
-        
-        $pdf = pdf::loadView('invoice', $data);
+        // Buat HTML invoice
+        $html = view('invoice', compact('cartItems'))->render();
 
-        
+        // Buat PDF dari HTML
+        $pdf = PDF::loadHTML($html);
+
+        // Unduh PDF
         return $pdf->download('invoice.pdf');
     }
 }

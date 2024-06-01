@@ -1,10 +1,10 @@
 <footer class="text-white py-5" style="background-color:#070952">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3" style="margin-left: 20px">
                 <div class="footer-left" style="color:#DF86A1">
                     <h3>Nama Catering</h3>
-                    <p>Alamat Catering</p>
+                    <p>Jl. Locari No.90 RT.03 RW.01, Sekarpuro <br>Kecamatan Pakis, Kabupaten Malang, 65154</p>
                 </div>
             </div>
             <div class="col-md-3">
@@ -14,8 +14,8 @@
                     WA Only: +123456789</p>
                 </div>
             </div>
-            <div class="col-md-3 offset-md-3">
-                <div class="footer-right">
+            <div class="col-md-2 offset-md-3 d-flex justify-content-end">
+                <div class="footer-end">
                     <h3 style="color:#DF86A1">Follow Us</h3>
                     <div>
                         <a href="https://www.instagram.com/" target="_blank" class="d-inline me-3"><img src="images/instagram.png"  alt="Instagram" style="width: 40px;"></a>
