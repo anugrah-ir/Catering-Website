@@ -150,13 +150,13 @@
             <div><a href="mailto:ny.ayucatering@gmail.com">ny.ayucatering@gmail.com</a></div>
         </div>
         <div id="project">
-        @isset($user)
-        <div><span>CLIENT</span> {{ $user->name }}</div>
-        <div><span>EMAIL</span> <a href="mailto:{{$user->email}}">{{$user->email}}</a></div>
+        @if($user)
+            <div><span>CLIENT</span> {{ $user->name }}</div>
+            <div><span>EMAIL</span> <a href="mailto:{{$user->email}}">{{$user->email}}</a></div>
         @else
-            <div><span>CLIENT</span></div> 
-            <div><span>EMAIL</span>
-        @endisset
+            <div><span>CLIENT</span> User information not available</div>
+            <div><span>EMAIL</span> User information not available</div>
+        @endif
             <div><span>DATE</span> {{ $currentDate }}</div>
             <div><span>DUE DATE</span> {{ $dueDate }}</div>
         </div>
