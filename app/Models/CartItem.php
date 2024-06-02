@@ -12,6 +12,11 @@ class CartItem extends Model
     // Attribut yang dapat diisi (sesuaikan dengan struktur tabel Anda)
     protected $fillable = ['product_id', 'product_name', 'quantity', 'total_price'];
 
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+    
     public function menu()
     {
         return $this->belongsTo(Menu::class, 'product_id');

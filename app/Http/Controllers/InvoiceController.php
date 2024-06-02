@@ -14,8 +14,8 @@ class InvoiceController extends Controller
 {
     public function generatePDF()
     {
-        
-        $cartItems = CartItem::with('menu')->get();
+        $userId = Auth::id();
+        $cartItems = CartItem::with('menu')->where('user_id', $userId)->get();
         $user = Auth::user();
 
         // Buat HTML invoice

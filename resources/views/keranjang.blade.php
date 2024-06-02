@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+ 
 @section('content')
 <div class="container-fluid" style="background-color: #DF86A1; min-height: 100vh; padding: 40px">
     <div class="container" style="padding: 50px">

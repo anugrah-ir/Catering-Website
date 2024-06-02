@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
@@ -7,13 +6,15 @@ use Illuminate\Support\Facades\Redirect;
 use Illuminate\Http\Request;
 use App\Models\CartItem;
 use App\Models\Menu;
+use Illuminate\Support\Facades\Auth;
 
 class ShoppingCartController extends Controller
 {
     // Menampilkan halaman keranjang
     public function index()
     {
-        $cartItems = CartItem::with('menu')->get();
+        $userId = Auth::id();
+        $cartItems = CartItem::with('menu')->where('user_id', $userId)->get();
         return view('keranjang', compact('cartItems'));
     }
 
@@ -23,6 +24,7 @@ class ShoppingCartController extends Controller
         $request->validate([
             'quantity' => 'required|integer|min:1',
         ]);
+
         // Dapatkan harga produk berdasarkan ID produk
         $productId = $request->productId;
         $product = Menu::find($productId);
@@ -34,6 +36,7 @@ class ShoppingCartController extends Controller
 
         // Simpan ke dalam database
         DB::table('cart_items')->insert([
+            'user_id' => Auth::id(), // Simpan user_id
             'product_name' => $request->productName,
             'quantity' => $quantity,
             'total_price' => $totalPrice,
@@ -45,7 +48,13 @@ class ShoppingCartController extends Controller
 
     public function removeFromCart($id)
     {
-        CartItem::find($id)->delete();
+        $userId = Auth::id();
+        $cartItem = CartItem::where('id', $id)->where('user_id', $userId)->first();
+
+        if ($cartItem) {
+            $cartItem->delete();
+        }
+
         return redirect()->route('shopping.cart');
     }
 }
