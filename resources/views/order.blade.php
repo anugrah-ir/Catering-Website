@@ -32,7 +32,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Buffet 1.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -78,7 +78,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Buffet 2.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -123,7 +123,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Buffet 3.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -169,7 +169,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Buffet 4.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -221,7 +221,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Prasmanan A.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -266,7 +266,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Prasmanan B.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -311,7 +311,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Prasmanan C.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -356,7 +356,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Prasmanan D.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -409,7 +409,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Nasi Kotak A.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -452,7 +452,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Nasi Kotak B.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -496,7 +496,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Nasi Kotak C.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -540,7 +540,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Nasi Kotak D.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -592,7 +592,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Tumpeng A.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -634,7 +634,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Tumpeng B.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -678,7 +678,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Tumpeng C.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>
@@ -721,7 +721,7 @@
                     <h4 style="margin-left: 15px">{{ $item->name }}</h4>
                     <div class="row">
                         <div class="col-md-3">
-                            <img src="images/images3.png" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
+                            <img src="images/Tumpeng D.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
                             <ul>

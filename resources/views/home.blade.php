@@ -19,22 +19,22 @@
                     <div class="col-12 col-md-8">
                         <div class="row">
                             <div class="col-12 col-sm-6 col-md-4 mb-4">
-                                <img src="images/images.png" class="img-thumbnail img-fluid" alt="Gambar 1">
+                                <img src="images/1_Kiri Atas.jpg" class="img-thumbnail img-fluid" alt="Gambar 1">
                             </div>
                             <div class="col-12 col-sm-6 col-md-4 mb-4">
-                                <img src="images/images.png" class="img-thumbnail img-fluid" alt="Gambar 2">
+                                <img src="images/2_Tengah Atas.jpg" class="img-thumbnail img-fluid" alt="Gambar 2">
                             </div>
                             <div class="col-12 col-sm-6 col-md-4 mb-4">
-                                <img src="images/images.png" class="img-thumbnail img-fluid" alt="Gambar 3">
+                                <img src="images/3_Kanan Atas.jpg" class="img-thumbnail img-fluid" alt="Gambar 3">
                             </div>
                             <div class="col-12 col-sm-6 col-md-4 mb-4">
-                                <img src="images/images.png" class="img-thumbnail img-fluid" alt="Gambar 4">
+                                <img src="images/4_Kiri Bawah.jpg" class="img-thumbnail img-fluid" alt="Gambar 4">
                             </div>
                             <div class="col-12 col-sm-6 col-md-4 mb-4">
-                                <img src="images/images.png" class="img-thumbnail img-fluid" alt="Gambar 5">
+                                <img src="images/5_Tengah Bawah.jpg" class="img-thumbnail img-fluid" alt="Gambar 5">
                             </div>
                             <div class="col-12 col-sm-6 col-md-4 mb-4">
-                                <img src="images/images.png" class="img-thumbnail img-fluid" alt="Gambar 6">
+                                <img src="images/6_Kanan Bawah.jpg" class="img-thumbnail img-fluid" alt="Gambar 6">
                             </div>
                         </div>
                     </div>
@@ -165,7 +165,7 @@
                     <p>Ya. Anda bisa mendapatkan Food Testing secara Gratis saat Anda memesan untuk jenis acara rangkaian Pernikahan. Konsultasikan dengan Advisor kami untuk mendapatkan penawaran terbaik.</p>
                     </div>
                     <div class="col-12 col-md-5">
-                        <img src="images/images.png" class="img-fluid"alt="Gambar 1" style="padding: 10px; margin-right: 10px">
+                        <img src="images/QnA.jpg" class="img-fluid"alt="Gambar 1" style="padding: 10px; margin-right: 10px">
                     </div>
                 </div>
             </div>

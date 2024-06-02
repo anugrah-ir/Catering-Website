@@ -10,7 +10,7 @@
         </div>
         <div class="row" style="padding: 50px;">
             <div class="col-lg-6 col-md-12">
-                <img src="https://via.placeholder.com/800x400" class="img-fluid float-left" alt="Large Image">
+                <img src="images/aboutus.png" class="img-fluid float-left" alt="About">
             </div>
             <div class="col-lg-6 col-md-12" style="padding: 25px; font-size: 20px">
                 <p>

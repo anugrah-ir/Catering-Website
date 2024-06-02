@@ -19,7 +19,7 @@
                 <p style="color: #070952; margin-top: 20px;">Jalan Locari No.90 RT03 RW01 Sekarpuro<br>Kecamatan Pakis Kabupaten Malang 65154</p>
             </div>
             <div class="col-md-6 text-center d-flex flex-column align-items-center justify-content-center">
-                <img src="images/images.png" alt="Ny. Ayu Catering" style="max-width: 250px; border-radius: 50%;">
+                <img src="images/logo.png" alt="Ny. Ayu Catering" style="max-width: 250px; border-radius: 50%;">
                 <h2 style="color: #070952; margin-top: 20px;">Ny. Ayu Catering</h2>
                 <p style="color: #070952;">+62 821-9823-7561</p>
                 <p style="color: #070952;">Professional Service</p>
