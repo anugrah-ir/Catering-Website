@@ -8,18 +8,18 @@ use Barryvdh\DomPDF\Facade\pdf; // Menggunakan direktif use sesuai permintaan An
 use App\Models\CartItem;
 use App\Models\Menu;
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 class InvoiceController extends Controller
 {
     public function generatePDF()
     {
         
-        $cartItems = CartItem::with('menu')->get();
-        $user = $cartItems->isNotEmpty() ? $cartItems->first()->user : null;
+        $cartItems = CartItem::with('menu', 'user')->get();
+        $user = Auth::user();
 
         // Buat HTML invoice
         $html = view('invoice', compact('cartItems', 'user'))->render();
-
 
         // Buat PDF dari HTML
         $pdf = PDF::loadHTML($html);
