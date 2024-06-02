@@ -10,8 +10,8 @@
             <div class="col-md-3">
                 <div class="footer-center" style="color:#DF86A1">
                     <h3>Contact</h3>
-                    <p>Telp. +123456789<br>
-                    WA Only: +123456789</p>
+                    <p>Telp. +62 821-9823-7561<br>
+                    WA Only: +62 821-9823-7561</p>
                 </div>
             </div>
             <div class="col-md-2 offset-md-3 d-flex justify-content-end">

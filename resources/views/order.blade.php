@@ -29,13 +29,13 @@
                     $item = App\Models\Menu::find(1);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Buffet 1.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi</li>
                                 <li>Sayur Gudeg</li>
                                 <li>Ayam Bacem</li>
@@ -44,7 +44,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Tempe Bacem</li>
                                 <li>Sambel</li>
                                 <li>Kerupuk</li>
@@ -60,7 +60,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -75,13 +75,13 @@
                     $item = App\Models\Menu::find(2);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Buffet 2.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi Liwet</li>
                                 <li>Sayur Manisa</li>
                                 <li>Opor Ayam</li>
@@ -89,7 +89,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Telor Areh</li>
                                 <li>Sambel</li>
                                 <li>Kerupuk</li>
@@ -105,7 +105,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -120,13 +120,13 @@
                     $item = App\Models\Menu::find(3);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Buffet 3.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi Putih</li>
                                 <li>Sayur Asem</li>
                                 <li>Empal Gepuk/Ayam</li>
@@ -135,7 +135,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Ikan Asin</li>
                                 <li>Sambel</li>
                                 <li>Kerupuk</li>
@@ -151,7 +151,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -166,13 +166,13 @@
                     $item = App\Models\Menu::find(4);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Buffet 4.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Rawon/Soto</li>
                                 <li>Telor</li>
                                 <li>Tempe Mendoan</li>
@@ -180,7 +180,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Sambel</li>
                                 <li>Kerupuk</li>
                                 <li>Air Mineral</li>
@@ -195,7 +195,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -218,13 +218,13 @@
                     $item = App\Models\Menu::find(5);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Prasmanan A.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Sub Ayam</li>
                                 <li>Capcay</li>
                                 <li>Ayam Saus Inggris</li>
@@ -232,7 +232,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nugget</li>
                                 <li>Nasi Putih</li>
                                 <li>Es Pelangi</li>
@@ -248,7 +248,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -263,13 +263,13 @@
                     $item = App\Models\Menu::find(6);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Prasmanan B.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Sup Merah</li>
                                 <li>Ayam Goreng</li>
                                 <li>Tumis Jamur Kuping</li>
@@ -277,7 +277,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi Goreng</li>
                                 <li>Bakmie Goreng</li>
                                 <li>Acar</li>
@@ -293,7 +293,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -308,13 +308,13 @@
                     $item = App\Models\Menu::find(7);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Prasmanan C.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi Putih</li>
                                 <li>Nasi Goreng</li>
                                 <li>Soup Kimlo</li>
@@ -322,7 +322,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Bihun Goreng</li>
                                 <li>Tumis Jagung</li>
                                 <li>Puding</li>
@@ -338,7 +338,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -353,13 +353,13 @@
                     $item = App\Models\Menu::find(8);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Prasmanan D.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi Putih</li>
                                 <li>Sup Sehat</li>
                                 <li>Ayam Tahu Jepang</li>
@@ -367,7 +367,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Babykol Ayam Jamur</li>
                                 <li>Bakmie Goreng</li>
                                 <li>Es Dawet</li>
@@ -383,7 +383,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -406,20 +406,20 @@
                     $item = App\Models\Menu::find(9);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Nasi Kotak A.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi Putih</li>
                                 <li>Sambel Goreng</li>
                                 <li>Kentang</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Mie</li>
                                 <li>Acar</li>
                                 <li>Ayam Bakar</li>
@@ -434,7 +434,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -449,13 +449,13 @@
                     $item = App\Models\Menu::find(10);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Nasi Kotak B.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi Kuning</li>
                                 <li>Kering Tempe</li>
                                 <li>Sambel Goreng Kentang</li>
@@ -463,7 +463,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Mie</li>
                                 <li>Acar</li>
                                 <li>Ayam Goreng</li>
@@ -478,7 +478,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -493,13 +493,13 @@
                     $item = App\Models\Menu::find(11);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Nasi Kotak C.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi Putih</li>
                                 <li>Krengsengan</li>
                                 <li>Bali Telor</li>
@@ -507,7 +507,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Gorengan</li>
                                 <li>Sambel</li>
                                 <li>Kerupuk</li>
@@ -522,7 +522,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -537,13 +537,13 @@
                     $item = App\Models\Menu::find(12);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Nasi Kotak D.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi Putih</li>
                                 <li>Sayur Asem</li>
                                 <li>Ayam Goreng</li>
@@ -551,7 +551,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Tempe Mendoan</li>
                                 <li>Sambel</li>
                                 <li>Kerupuk</li>
@@ -566,7 +566,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -589,20 +589,20 @@
                     $item = App\Models\Menu::find(13);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Tumpeng A.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi Putih</li>
                                 <li>Sambel Goreng Kentang</li>
                                 <li>Mie</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Acar</li>
                                 <li>Ayam Bakar</li>
                             </ul>
@@ -616,7 +616,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -631,13 +631,13 @@
                     $item = App\Models\Menu::find(14);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Tumpeng B.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi Kuning</li>
                                 <li>Kering Tempe</li>
                                 <li>Sambel Goreng Kentang</li>
@@ -645,7 +645,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Mie</li>
                                 <li>Acar</li>
                                 <li>Ayam Goreng</li>
@@ -660,7 +660,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -675,13 +675,13 @@
                     $item = App\Models\Menu::find(15);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Tumpeng C.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi Putih</li>
                                 <li>Urap Sayur</li>
                                 <li>Tempe Bacem</li>
@@ -689,7 +689,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Ayam Bumbu</li>
                                 <li>Sayur Lodeh</li>
                                 <li>Terik Tahu</li>
@@ -704,7 +704,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -718,20 +718,20 @@
                     $item = App\Models\Menu::find(16);
                 @endphp
                 <div style="padding-top: 5px; margin: 15px; color:#DF6589">
-                    <h4 style="margin-left: 15px">{{ $item->name }}</h4>
+                    <h2 style="margin-left: 15px">{{ $item->name }}</h2>
                     <div class="row">
                         <div class="col-md-3">
                             <img src="images/Tumpeng D.jpg" class="img-fluid" alt="{{ $item->name }}" style="width: 350px; height: auto; padding:15px">
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Nasi Putih/Kuning</li>
                                 <li>Ayam Goreng/Crispy</li>
                                 <li>Sambel Goreng Kentang</li>
                             </ul>
                         </div>
                         <div class="col-md-3" style="padding-top:25px">
-                            <ul>
+                            <ul style="font-size: 18px">
                                 <li>Sate Kambing</li>
                                 <li>Kering Tempe</li>
                                 <li>Mie</li>
@@ -746,7 +746,7 @@
                                         <input type="hidden" name="productId" value="{{ $item->id }}">
                                         <input type="hidden" name="productName" value="{{ $item->name }}">
                                         <input type="hidden" name="productPrice" value="{{ $item->price }}">
-                                        <label for="quantity" style="color: #DF6589;">Qty:</label>
+                                        <label for="quantity" style="color: #DF6589; font-size: 18px">Qty:</label>
                                         <input type="number" name="quantity" id="quantity" min="0" value="0" class="input-box" style="width: 50px; border-color: #DF6589;">
                                         <button class="btn btn-primary" type="submit" style="border-color: #DF6589; background-color: transparent;"><i class="bi bi-cart-plus" style="color: #DF6589;"></i></button>
                                     </form>
@@ -763,9 +763,9 @@
     <div class="row">
         <div class="col-md-12 text-end">
             @auth <!-- Periksa apakah pengguna sudah login -->
-                <a href="/keranjang" class="btn btn-primary rounded-pill" style="margin-right: 100px">Periksa Keranjang</a>
+                <a href="/keranjang" class="btn btn-primary bi bi-cart-plus rounded-pill" style="margin-right: 110px; background-color:#070952; border-color:#070952;color:#DF6589; font-size: 20px;">  Keranjang</a>
             @else
-                <a href="/login" class="btn btn-primary rounded-pill" style="margin-right: 100px">Login untuk Periksa Keranjang</a>
+                <a href="/login" class="btn btn-primary rounded-pill" style="margin-right: 110px; background-color:#070952; border-color:#070952;color:#DF6589; font-size: 20px;">Login untuk Periksa Keranjang</a>
             @endauth
         </div>
     </div>

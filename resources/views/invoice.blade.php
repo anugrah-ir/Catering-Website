@@ -1,7 +1,7 @@
 @php
     use Carbon\Carbon;
-    $currentDate = Carbon::now()->format('Y-m-d H:i:s');
-    $dueDate = Carbon::now()->addDays(3)->format('Y-m-d H:i:s');
+    $currentDate = Carbon::now('Asia/Jakarta')->format('Y-m-d H:i:s');
+    $dueDate = Carbon::now('Asia/Jakarta')->addDays(3)->format('Y-m-d H:i:s');
 @endphp
 
 <div class="container" style="padding: 50px;">

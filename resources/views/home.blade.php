@@ -5,7 +5,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-            <h1 class="text-center" style="padding: 150px; color:#FFFFFF">“Pilihan Utama Catering: Kualitas <br>Terbaik, Harga Bersahabat”</h1>
+            <h1 class="text-center" style="padding: 150px; color:#FFFFFF; font-size: 50px;">“Pilihan Utama Catering: Kualitas <br>Terbaik, Harga Bersahabat”</h1>
             </div>
         </div>
     </div>
@@ -38,9 +38,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4" style="padding: 50px; background-color: #070952; color: #DF86A1;">
-                        <h1>Kenapa Harus Kami?</h1>
-                        <ul>
+                    <div class="col-12 col-md-4" style="padding-top: 125px; margin: 25 px; background-color: #070952; color: #DF86A1;">
+                        <h1 style="font-size: 50px">Kenapa Harus Kami?</h1><br><br>
+                        <ul style="font-size: 20px">
                             <li>Bahan baku terbaik untuk kualitas tinggi dan rasa konsisten tanpa mengorbankan harga</li>
                             <li>Tim yang siap melayani dengan ramah dan cepat tanggap</li>
                             <li>Beragam pilihan menu yang disesuaikan dengan selera pelanggan</li>
@@ -54,14 +54,13 @@
     </div>
 </section>
 
-
-<section style="background-color:#DF86A1; padding: 25px;">
+<section style="background-color:#DF86A1; padding: 50px;">
     <div class="container-fluid">
         <div class="row">
             <div class="col"  style="margin-left: 50px; padding: 25px;">
                 <div style="color:#070952">
-                    <p>Variasi Menu</p>
-                    <h3>Berbagai Menu Ny. Ayu Catering</h3>
+                    <p style="font-size: 20px">Variasi Menu</p>
+                    <h3 style="font-size: 40px; font-weight: Bold">Berbagai Menu Ny. Ayu Catering</h3>
                     <p>Ny. Ayu Catering mengedepankan variasi manu, setiap menu telah melalui proses <br>kurasi dan dirancang khusus sehingga dapat teruji kelezatan dan kebersihannya </p>
                 </div>
             </div>
@@ -69,32 +68,32 @@
         <div class="row">
             <div class="col">
                 <div style="display: flex">
-                    <div class="rounded card" style="flex: 1; background-color:#070952; padding: 30px; margin-left: 50px; margin-right: 15px">
-                        <img src="images/images2.png" class="card-img" alt="Gambar 1" style="width: 100%; height: auto">
-                        <div class="card-img-overlay text-center">
-                            <h5 class="card-title">Nama</h5>
-                            <p class="card-text">Penjelasan</p>
+                    <div class="rounded card" style="flex: 1; background-color:#070952; color:white; padding: 30px; margin-left: 50px; margin-right: 15px">
+                        <img src="images/Bufffet.jpg" class="card-img" alt="Gambar 1" style="width: 100%; height: auto">
+                        <div class="card-img-overlay text-center" style="padding-top: 100px">
+                            <h5 class="card-title" style="font-size: 35px">Buffet</h5>
+                            <p class="card-text" style="font-size: 18px">Menikmati kelezatan <br>beragam hidangan di buffet</p>
                         </div>
                     </div>
-                    <div class="rounded card" style="flex: 1; background-color:#070952; padding: 30px;  margin-left: 15px; margin-right: 15px">
-                        <img src="images/images2.png" class="card-img" alt="Gambar 2" style="width: 100%; height: auto">
-                        <div class="card-img-overlay text-center">
-                            <h5 class="card-title">Nama</h5>
-                            <p class="card-text">Penjelasan</p>
+                    <div class="rounded card" style="flex: 1; background-color:#070952; color:white; padding: 30px;  margin-left: 15px; margin-right: 15px">
+                        <img src="images/Prasmanan.jpg" class="card-img" alt="Gambar 2" style="width: 100%; height: auto">
+                        <div class="card-img-overlay text-center" style="padding-top: 100px">
+                            <h5 class="card-title" style="font-size: 35px">Prasmanan</h5>
+                            <p class="card-text" style="font-size: 18px">Keseruan memilih di prasmanan</p>
                         </div>
                     </div>
-                    <div class="rounded card" style="flex: 1; background-color:#070952; padding: 30px;  margin-left: 15px; margin-right: 15px">
-                        <img src="images/images2.png" class="card-img" alt="Gambar 3" style="width: 100%; height: auto">
-                        <div class="card-img-overlay text-center">
-                            <h5 class="card-title">Nama</h5>
-                            <p class="card-text">Penjelasan</p>
+                    <div class="rounded card" style="flex: 1; background-color:#070952; color:white; padding: 30px;  margin-left: 15px; margin-right: 15px">
+                        <img src="images/Nasi Kotak.jpg" class="card-img" alt="Gambar 3" style="width: 100%; height: auto">
+                        <div class="card-img-overlay text-center" style="padding-top: 100px">
+                            <h5 class="card-title" style="font-size: 35px">Nasi Kotak</h5>
+                            <p class="card-text" style="font-size: 18px">Praktisnya nasi kotak untuk acara</p>
                         </div>
                     </div>
-                    <div class="rounded card" style="flex: 1; background-color:#070952; padding: 30px;  margin-left: 15px; margin-right: 50px">
-                        <img src="images/images2.png" class="card-img" alt="Gambar 4" style="width: 100%; height: auto">
-                        <div class="card-img-overlay text-center">
-                            <h5 class="card-title">Nama</h5>
-                            <p class="card-text">Penjelasan</p>
+                    <div class="rounded card" style="flex: 1; background-color:#070952; color:white; padding: 30px;  margin-left: 15px; margin-right: 50px">
+                        <img src="images/Tumpeng.jpg" class="card-img" alt="Gambar 4" style="width: 100%; height: auto">
+                        <div class="card-img-overlay text-center" style="padding-top: 100px">
+                            <h5 class="card-title" style="font-size: 35px">Tumpeng</h5>
+                            <p class="card-text" style="font-size: 18px">Keanggunan tumpeng sebagai <br>simbol syukur dan kebersamaan</p>
                         </div>
                     </div>
                 </div>
@@ -107,35 +106,35 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <h2 style="text-decoration: underline; text-align: center; padding-top: 25px;">Catering Service</h2>
+                <h2 style="text-decoration: underline; text-align: center; padding-top: 25px; font-size: 40px; font-weight: Bold">Catering Service</h2>
             </div>
         </div>
         <div class="row text-center" style="padding: 10px; margin: 50px;">
             <div class="col-md-4">
-                <h3>Wedding Service</h3>
-                <p>Buat hari istimewa Anda lebih berkesan dengan layanan <br>Wedding Service kami yang elegan dan lezat</p>
+                <h3 style="font-size: 35px;">Wedding Service</h3>
+                <p style="font-size: 20px;">Buat hari istimewa Anda lebih <br>berkesan dengan layanan Wedding Service <br>kami yang elegan dan lezat</p>
             </div>
             <div class="col-md-4">
-                <h3>Daily Catering</h3>
-                <p>Nikmati hidangan lezat setiap hari dengan layanan Daily <br>Catering kami yang praktis dan bergizi</p>
+                <h3 style="font-size: 35px;">Daily Catering</h3>
+                <p style="font-size: 20px;">Nikmati hidangan lezat setiap hari <br>dengan layanan Daily Catering kami <br>yang praktis dan bergizi</p>
             </div>
             <div class="col-md-4">
-                <h3>School Catering</h3>
-                <p>Sajikan makanan sehat dan menyenangkan untuk anak-anak <br>dengan School Catering kami yang penuh gizi</p>
+                <h3 style="font-size: 35px;">School Catering</h3>
+                <p style="font-size: 20px;">Sajikan makanan sehat dan menyenangkan <br>untuk anak-anak dengan School Catering <br>kami yang penuh gizi</p>
             </div>
         </div>
         <div class="row text-center" style="padding: 25px; margin: 50px;">
             <div class="col-md-4">
-                <h3>Office Catering</h3>
-                <p>Tingkatkan produktivitas tim Anda dengan Office Catering <br>kami yang menyediakan menu lezat dan bervariasi</p>
+                <h3 style="font-size: 35px;">Office Catering</h3>
+                <p style="font-size: 20px;">Tingkatkan produktivitas tim Anda <br>dengan Office Catering kami yang menyediakan <br>menu lezat dan bervariasi</p>
             </div>
             <div class="col-md-4">
-                <h3>Various Cakes</h3>
-                <p>Manjakan lidah Anda dengan berbagai pilihan kue lezat dari <br>koleksi Various Cakes kami yang menggoda</p>
+                <h3 style="font-size: 35px;">Various Cakes</h3>
+                <p style="font-size: 20px;">Manjakan lidah Anda dengan berbagai <br>pilihan kue lezat dari koleksi Various Cakes <br>kami yang menggoda</p>
             </div>
             <div class="col-md-4">
-                <h3>Tumpeng</h3>
-                <p>Rayakan momen spesial dengan Tumpeng istimewa kami yang <br>autentik dan penuh cita rasa</p>
+                <h3 style="font-size: 35px;">Tumpeng</h3>
+                <p style="font-size: 20px;">Rayakan momen spesial dengan <br>Tumpeng istimewa kami yang autentik <br>dan penuh cita rasa</p>
             </div>
         </div>
     </div>
